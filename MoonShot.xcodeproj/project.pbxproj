@@ -3,10 +3,11 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 56;
+	objectVersion = 60;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CE8EB1512AF1C59D00CDE895 /* Color-Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8EB1502AF1C59D00CDE895 /* Color-Theme.swift */; };
 		CEA526232AE8782E00CB7A47 /* MoonShotApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA526222AE8782E00CB7A47 /* MoonShotApp.swift */; };
 		CEA526252AE8782E00CB7A47 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA526242AE8782E00CB7A47 /* ContentView.swift */; };
 		CEA526272AE8783200CB7A47 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEA526262AE8783200CB7A47 /* Assets.xcassets */; };
@@ -15,10 +16,12 @@
 		CEA526332AE9408E00CB7A47 /* astronauts.json in Resources */ = {isa = PBXBuildFile; fileRef = CEA526312AE9408E00CB7A47 /* astronauts.json */; };
 		CEA526352AE9DF8B00CB7A47 /* Astronaut.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA526342AE9DF8B00CB7A47 /* Astronaut.swift */; };
 		CEA526372AE9E16B00CB7A47 /* Bundle-Decodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA526362AE9E16B00CB7A47 /* Bundle-Decodable.swift */; };
+		CEB5A4432AF2B28D0090B81B /* MissionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB5A4422AF2B28D0090B81B /* MissionView.swift */; };
 		CED180692AF0425900538546 /* Mission.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED180682AF0425900538546 /* Mission.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CE8EB1502AF1C59D00CDE895 /* Color-Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color-Theme.swift"; sourceTree = "<group>"; };
 		CEA5261F2AE8782E00CB7A47 /* MoonShot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MoonShot.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEA526222AE8782E00CB7A47 /* MoonShotApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoonShotApp.swift; sourceTree = "<group>"; };
 		CEA526242AE8782E00CB7A47 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -28,6 +31,7 @@
 		CEA526312AE9408E00CB7A47 /* astronauts.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = astronauts.json; sourceTree = "<group>"; };
 		CEA526342AE9DF8B00CB7A47 /* Astronaut.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Astronaut.swift; sourceTree = "<group>"; };
 		CEA526362AE9E16B00CB7A47 /* Bundle-Decodable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bundle-Decodable.swift"; sourceTree = "<group>"; };
+		CEB5A4422AF2B28D0090B81B /* MissionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MissionView.swift; sourceTree = "<group>"; };
 		CED180682AF0425900538546 /* Mission.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mission.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -63,6 +67,8 @@
 			children = (
 				CEA526222AE8782E00CB7A47 /* MoonShotApp.swift */,
 				CEA526242AE8782E00CB7A47 /* ContentView.swift */,
+				CEB5A4422AF2B28D0090B81B /* MissionView.swift */,
+				CE8EB1502AF1C59D00CDE895 /* Color-Theme.swift */,
 				CEA526342AE9DF8B00CB7A47 /* Astronaut.swift */,
 				CED180682AF0425900538546 /* Mission.swift */,
 				CEA526362AE9E16B00CB7A47 /* Bundle-Decodable.swift */,
@@ -118,7 +124,7 @@
 				};
 			};
 			buildConfigurationList = CEA5261A2AE8782E00CB7A47 /* Build configuration list for PBXProject "MoonShot" */;
-			compatibilityVersion = "Xcode 14.0";
+			compatibilityVersion = "Xcode 15.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -154,7 +160,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CEB5A4432AF2B28D0090B81B /* MissionView.swift in Sources */,
 				CEA526352AE9DF8B00CB7A47 /* Astronaut.swift in Sources */,
+				CE8EB1512AF1C59D00CDE895 /* Color-Theme.swift in Sources */,
 				CEA526252AE8782E00CB7A47 /* ContentView.swift in Sources */,
 				CEA526232AE8782E00CB7A47 /* MoonShotApp.swift in Sources */,
 				CED180692AF0425900538546 /* Mission.swift in Sources */,
@@ -287,6 +295,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"MoonShot/Preview Content\"";
+				DEVELOPMENT_TEAM = F2DAZJL548;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -294,6 +303,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -315,6 +325,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"MoonShot/Preview Content\"";
+				DEVELOPMENT_TEAM = F2DAZJL548;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -322,6 +333,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
